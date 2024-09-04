@@ -33,7 +33,6 @@ function App() {
   const copyPasswordToClipboard = () => {
     window.navigator.clipboard.writeText(password)
     passwordRef.current?.select()
-    
   }
 
   return (
